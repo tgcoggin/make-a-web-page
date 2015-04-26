@@ -1,0 +1,97 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+  
+.headerBox {
+  max-width: 100%;
+  min-width: 600px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+ }
+.headerTitle {
+  font-family: impact, fantasy;
+  font-size: 3.4em;
+  letter-spacing: .05em;
+  color: #FFB600;
+  margin: 10px;
+  text-shadow: 5px 5px 5px #734799;
+}
+.navigationBox {
+  max-width: 100%;
+  min-width: 600px;
+  margin: 10px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.sectionLinkBox {
+  border-style: ridge;
+  width: 20%;
+  min-width: 200px;
+  height: 45px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica;
+  font-size: 1.4em;
+}
+.sectionBox {
+  max-width: 100%;
+  min-width: 600px;
+  margin: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #DDDDFF;
+  border-radius: 25px;
+  border: solid;
+  border-color: #CCBA9C;
+  border-width: thin;
+}
+.sectionTitleBox {
+  width: 100%;
+  min-width: 600px;
+  height: 45px;
+  font-family: fantasy;
+  font-weigth: bold;
+  font-size: 1.5em;
+  letter-spacing: .05em;
+  text-decoration: underline;
+  color: #734799;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.sectionContentBox {
+  font-family: Georgia, Serif;
+  font-size: 1.3em;  
+}
+.exampleOfAnElementBox {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: courier;
+  font-size: .9em;
+}  
+.exampleOfAnElementContent {
+  padding: 10px;
+  border: solid;
+  border-color: #CCBA9C;
+  border-width: medium;
+  
+}
+.keyword {
+  font-weight: bold;
+}
+.contentResources {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
